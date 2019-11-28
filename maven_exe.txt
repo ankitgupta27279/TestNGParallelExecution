@@ -1,0 +1,1 @@
+mvn clean test -Dsurefire.suiteXmlFiles=pack12.xml,pack23.xml,pack31.xml

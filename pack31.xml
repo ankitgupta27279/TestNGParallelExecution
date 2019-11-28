@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Main Test Suite" verbose="1" parallel="tests">
+	
+	<test name="Testing 3" parallel="false">
+		<classes>
+			<class name="com.pack3.TestClass1514" />
+			<class name="com.pack3.TestClass1213" />
+		</classes>
+	</test>
+	
+	<test name="Testing 1" parallel="false">
+		<classes>
+			<class name="com.pack1.TestClass32" />
+			<class name="com.pack1.TestClass54" />
+			<class name="com.pack1.TestClass76" />
+		</classes>
+	</test>
+	
+</suite>

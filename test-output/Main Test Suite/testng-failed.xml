@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Main Test Suite]" parallel="tests">
+  <test name="Testing 1">
+    <classes>
+      <class name="com.pack1.TestClass1"/>
+      <class name="com.pack1.TestClass2"/>
+      <class name="com.pack1.TestClass3"/>
+    </classes>
+  </test> <!-- Testing 1 -->
+</suite> <!-- Failed suite [Main Test Suite] -->
